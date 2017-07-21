@@ -26,6 +26,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>ArtArt-releases</name>
+            <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <pluginManagement>
             <plugins>
